@@ -1,0 +1,17 @@
+ipykernel
+joblib
+mlflow>=3.0.0
+pandas
+pyarrow
+python-dotenv>=1.2.2
+pyyaml
+scikit-learn
+seaborn
+xgboost
+pytest
+fastapi
+uvicorn
+streamlit
+sqlalchemy
+httpx
+plotly
