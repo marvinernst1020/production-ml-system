@@ -1,7 +1,7 @@
 [project]
 name = "production-ml-system"
 version = "0.1.0"
-description = "Add your description here"
+description = "End-to-End production ready Machine Learning system."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -145,3 +145,10 @@ dependencies = [
     "yarl==1.24.5",
     "zipp==4.1.0",
 ]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

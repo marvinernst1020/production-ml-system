@@ -12,3 +12,4 @@ def load_config():
 CONFIG = load_config()
 
 RAW_DATA_PATH = PROJECT_ROOT / CONFIG["raw_data"]
+PROCESSED_DATA_PATH = PROJECT_ROOT / CONFIG["processed_data"]

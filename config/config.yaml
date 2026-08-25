@@ -1,1 +1,2 @@
 raw_data: data/raw/Customer_Churn.csv
+processed_data: data/processed/churn_processed.parquet
